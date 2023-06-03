@@ -5,7 +5,9 @@ import { useEffect, useState } from "react";
 
 function App() {
   const client_id = process.env.REACT_APP_CLIENT_ID;
-  const redirect_uri = "http://localhost:3000/";
+  // const redirect_uri = "http://localhost:3000/";
+  // const redirect_uri = "https://b1ll1-humble-space-yodel-j6g5jxq9rg62q5p7-3000.preview.app.github.dev/spomodoro/"
+  const redirect_uri = "https://b1ll1.github.io/spomodoro/"
 
   let accessToken = localStorage.getItem("access-token");
 
